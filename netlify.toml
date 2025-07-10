@@ -1,0 +1,10 @@
+[build]
+  command = "npx @netlify/next"
+  publish = ".netlify/output"
+
+[functions]
+  directory = ".netlify/functions"
+
+[dev]
+  command = "next dev"
+  targetPort = 3000
