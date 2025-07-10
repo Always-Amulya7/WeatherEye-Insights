@@ -84,7 +84,7 @@ function WeatherDetailsPanel({
   return (
     <Card className="h-full w-full flex flex-col overflow-hidden">
       <div
-        className="relative flex-shrink-0 w-full text-white bg-cover bg-center bg-card aspect-video"
+        className="relative flex-shrink-0 w-full text-white bg-cover bg-center bg-card aspect-video Edit"
         style={{ backgroundImage: imageUrl ? `url(${imageUrl})` : "none" }}
         data-ai-hint="weather location"
       >
@@ -305,7 +305,7 @@ export default function LiveWeatherMap({
           {clickedLatLng && <Marker position={clickedLatLng} />}
         </GoogleMap>
       </div>
-      <div className="md:col-span-1 h-full min-h-[400px]">
+      <div className="md:col-span-1 h-full min-h-[fit-content]">
         <WeatherDetailsPanel
           weather={weatherData}
           imageUrl={locationImageUrl}
