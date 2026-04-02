@@ -467,6 +467,6 @@ For support, email your-email@example.com or open an issue in the repository.
 
 **[⬆ Back to Top](#-weathereye-insights)**
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Amulya Shrivastava
 
 </div>
