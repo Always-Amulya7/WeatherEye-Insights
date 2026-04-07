@@ -38,7 +38,7 @@ const generateLocationImageFlow = ai.defineFlow(
   async (input) => {
     const prompt = `A beautiful, scenic photograph of ${input.locationName}. Hyperrealistic photo.`;
     const { media } = await ai.generate({
-      model: "googleai/gemini-2.0-flash-preview-image-generation",
+      model: "googleai/gemini-3.1-flash-image-preview",
       prompt: prompt,
       config: {
         responseModalities: ["TEXT", "IMAGE"],
